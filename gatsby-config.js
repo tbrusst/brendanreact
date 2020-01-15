@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Brendan Russo`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    link: `https://use.typekit.net/nrn2zoj.css`,
+    link: `https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css`,
+    link: `https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
