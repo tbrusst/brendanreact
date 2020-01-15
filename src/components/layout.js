@@ -12,10 +12,10 @@ import GlobalStyle from "../styles/GlobalStyle"
 import { Helmet } from "react-helmet"
 
 import Header from "./header"
-import "./layout.css"
-import CMS from "netlify-cms"
 
-CMS.registerPreviewTemplate("my-template", MyTemplate)
+// import CMS from "netlify-cms"
+
+// CMS.registerPreviewTemplate("my-template", MyTemplate)
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
